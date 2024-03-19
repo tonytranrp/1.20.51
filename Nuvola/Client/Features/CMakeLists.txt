@@ -1,0 +1,6 @@
+add_subdirectory(Commands)
+add_subdirectory(Config)
+add_subdirectory(IRC)
+add_subdirectory(Keymap)
+add_subdirectory(Modules)
+add_subdirectory(Theme)

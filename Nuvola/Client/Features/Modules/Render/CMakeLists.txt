@@ -1,0 +1,15 @@
+target_sources(Nuvola PRIVATE
+	"ClickGui.cpp"
+	"ESP.cpp"
+	"Freelook.cpp"
+	"Fullbright.cpp"
+	"ModList.cpp"
+	"Notifications.cpp"
+	"BlockESP.cpp"
+	"PacketDebugger.cpp"
+	"ServerRotations.cpp"
+	"ThemeDebugger.cpp"
+	"Tracers.cpp"
+	"Xray.cpp"
+	"CustomSky.cpp"
+)

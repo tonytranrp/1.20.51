@@ -1,32 +1,37 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
+.vs/
+/.vs/
+.vs/*
+/.vs/*
+Debug/
+Release/
+x64/
+obj/
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+*.ilk
+*/*/Debug
+*/*/Release
+Debug/
+Release/
 *.lib
-
-# Executables
+glm.0.9.9.800/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.cmake
+Win32/
+CMakeCache.txt
+CMakeFiles/
+Lunity.dir/
+Nuvola.dir/
+.vscode/
 *.exe
-*.out
-*.app
+*.dll
+Output/
+*.csproj
+node_modules/
+package-lock.json
+.idea/
+out/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-relwithdebinfo/

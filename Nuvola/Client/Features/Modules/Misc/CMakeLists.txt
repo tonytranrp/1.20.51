@@ -1,0 +1,15 @@
+target_sources(Nuvola PRIVATE
+	"AirPlace.cpp"
+	"AntiCrystal.cpp"
+	"AntiBot.cpp"
+	"Blink.cpp"
+	"ChestStealer.cpp"
+	"Disabler.cpp"
+	"IRC.cpp"
+	"NoFilter.cpp"
+	"NoPacket.cpp"
+	"Regen.cpp"
+	"Test.cpp"
+	"Timer.cpp"
+	"Uninject.cpp"
+)

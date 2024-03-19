@@ -1,0 +1,16 @@
+target_sources(Nuvola PRIVATE
+	"Airjump.cpp"
+	"AntiVoid.cpp"
+	"BHop.cpp"
+	"DamageBoost.cpp"
+	"Fly.cpp"
+	"Phase.cpp"
+	"Spider.cpp"
+	"Velocity.cpp"
+	"NoWeb.cpp"
+	"Step.cpp"
+	"Glide.cpp"
+	"Clicktp.cpp"
+	"HighJump.cpp"
+	"Jesus.cpp"
+)

@@ -1,0 +1,33 @@
+target_sources(Nuvola PRIVATE
+	"SigProvider.cpp"
+	"SigManager.cpp"
+	"SigTable.cpp"
+)
+
+add_subdirectory(Actor)
+add_subdirectory(Block)
+add_subdirectory(BlockLegacy)
+add_subdirectory(BlockSource)
+add_subdirectory(ClientInstance)
+add_subdirectory(ContainerScreenController)
+add_subdirectory(DirectPlayerMovementProxy)
+add_subdirectory(Enchant)
+add_subdirectory(EnchantUtils)
+add_subdirectory(GameMode)
+add_subdirectory(Global)
+add_subdirectory(GuiData)
+add_subdirectory(InventoryTransactionManager)
+add_subdirectory(ItemStack)
+add_subdirectory(Level)
+add_subdirectory(LoopbackPacketSender)
+add_subdirectory(MinecraftPackets)
+add_subdirectory(Mob)
+add_subdirectory(SystemImpl)
+add_subdirectory(NetworkItemStackDescriptor)
+add_subdirectory(Packet)
+add_subdirectory(PacketHandler)
+add_subdirectory(RakNet)
+add_subdirectory(ScreenView)
+add_subdirectory(StackResultStorageEntity)
+add_subdirectory(HudPlayerRenderer)
+add_subdirectory(Dimension)

@@ -1,0 +1,26 @@
+#pragma once
+
+#undef DELETE
+enum class ThemeIcon
+{
+	INVALID,
+	COMBAT,
+	RENDER,
+	MOTION,
+	PLAYER,
+	MISC,
+
+	ADD,
+	CHANGING_KEY,
+	CLEAR,
+	COMBO_OPEN,
+	CONFIG,
+	DELETE,
+	GUI_COLLAPSE,
+	GUI_EXPAND,
+	NEXT,
+	REFRESH,
+	SEARCH,
+	SETTINGS,
+	THEME
+};
